@@ -324,6 +324,7 @@ h5 {
     background-color: #f2f2f2;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.4); /* Couleur de fond avec opacité */
+    
 }
 
 .schedule tr:nth-child(even) {
@@ -508,7 +509,6 @@ footer {
         font-size: 14px; /* Ajustez la taille de la police du texte */
     }
     
-}
 
 .schedule {
     width: 100%; /* Ajustez la largeur pour occuper la totalité de l'écran */
@@ -517,8 +517,7 @@ footer {
 .schedule td {
     padding: 10px;
 }
-
-
+}
 
 
 

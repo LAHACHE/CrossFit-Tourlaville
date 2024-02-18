@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Bleu clair */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4169e1; /* Bleu royal */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #4169e1; /* Bleu royal */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4169e1; /* Bleu royal */
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Couleur de fond pour les lignes paires */
+}
+
+
+
+/* Styles spécifiques à la section "Autres Options" */
+section:nth-child(2) {
+    margin-top: 10px;
+}
+
+section:nth-child(2) table {
+    margin-top: 10px;
+}
+
+section:nth-child(2) th, section:nth-child(2) td {
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+}

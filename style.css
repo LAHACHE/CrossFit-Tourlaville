@@ -26,6 +26,7 @@ nav button {
     font-size: 16px;
     transition: border 0.3s ease-in-out, color 0.3s ease-in-out; /* Transitions fluides */
     font-size:large;
+    text-decoration: underline;
 }
 
 /* Styles pour les boutons de navigation au survol */
@@ -70,7 +71,7 @@ nav button:hover a::after {
         text-transform: uppercase;
         letter-spacing: 2px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre au texte */
-        /* Ajoutez d'autres styles souhaités pour le titre */
+        text-decoration: underline;
     }
 
 
@@ -447,7 +448,6 @@ footer {
 
 
 
-
 /* Ajoutez des règles de médias query pour rendre le site responsive */
 @media only screen and (max-width: 768px) {
     .logo {
@@ -463,8 +463,7 @@ footer {
     nav button {
         margin-top: 10px; /* Ajoutez une marge entre les boutons lorsqu'ils sont sur deux lignes différentes */
     }
-
-
+   
 
     .bloc1 {
         margin-left: 10px;
@@ -517,7 +516,14 @@ footer {
 .schedule td {
     padding: 10px;
 }
+
+body {
+    background-size: cover;
+    background-image: url("img/bgr.22.jpg");
+    
+  }
+
 }
 
 
-+v0+C4jmqu$G
+

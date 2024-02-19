@@ -2,7 +2,7 @@
 .logo {
     width: 100px; /* Ajustez la largeur du logo selon vos besoins */
     height: auto; /* Ajustez la hauteur automatiquement en fonction de la largeur */
-    margin-right: 10px; /* Ajoute une marge à droite du logo pour l'éloigner du texte */
+    margin-right: 10px; /* Ajoute une marge Ã  droite du logo pour l'Ã©loigner du texte */
 }
 
 /* Styles pour la barre de navigation */
@@ -15,7 +15,7 @@ nav {
 
 /* Styles pour les boutons de navigation */
 nav button {
-    background-color: transparent; /* Fond transparent par défaut */
+    background-color: transparent; /* Fond transparent par dÃ©faut */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -26,13 +26,12 @@ nav button {
     font-size: 16px;
     transition: border 0.3s ease-in-out, color 0.3s ease-in-out; /* Transitions fluides */
     font-size:large;
-    text-decoration: underline;
 }
 
 /* Styles pour les boutons de navigation au survol */
 nav button:hover {
     border: 2px solid white; /* Bordure blanche au survol */
-    padding: 8px 18px; /* Ajustez la taille du bouton au survol si nécessaire */
+    padding: 8px 18px; /* Ajustez la taille du bouton au survol si nÃ©cessaire */
     color: darkblue; /* Couleur du texte au survol */
 }
 
@@ -71,7 +70,7 @@ nav button:hover a::after {
         text-transform: uppercase;
         letter-spacing: 2px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre au texte */
-        text-decoration: underline;
+        /* Ajoutez d'autres styles souhaitÃ©s pour le titre */
     }
 
 
@@ -79,7 +78,7 @@ nav button:hover a::after {
     padding: 5px;
     margin: 5px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond avec opacité */
+    background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond avec opacitÃ© */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
     margin-top: 50px;
@@ -138,14 +137,14 @@ nav button:hover a::after {
 .slick-carousel .slick-slide {
     margin-right: 20px; /* Ajustez la valeur selon vos besoins */
     width: 50%; /* Ajustez la largeur selon vos besoins */
-    height: auto; /* Cela garantit que la hauteur est ajustée en proportion */
+    height: auto; /* Cela garantit que la hauteur est ajustÃ©e en proportion */
 }
 
 /* Styles pour les images du carrousel */
 .slick-carousel .slick-slide img {
     width: 100%; /* Assurez-vous que l'image occupe toute la largeur du conteneur */
     height: 300px; /* Vous pouvez ajuster la valeur en pixels selon vos besoins */
-    object-fit: cover; /* Pour s'assurer que l'image couvre complètement le conteneur */
+    object-fit: cover; /* Pour s'assurer que l'image couvre complÃ¨tement le conteneur */
     border-radius: 5px; /* Ajoutez une bordure arrondie si vous le souhaitez */
     object-position: center;
 
@@ -225,7 +224,7 @@ h3 {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond avec opacité */
+    background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond avec opacitÃ© */
     margin-left: 150px;
     margin-right: 150px;
   }
@@ -269,17 +268,17 @@ h5 {
 /* Conteneur pour aligner les images horizontalement */
 .photo-gallery {
     display: flex;
-    justify-content: space-between; /* Espacement égal entre les images */
+    justify-content: space-between; /* Espacement Ã©gal entre les images */
     align-items: center; /* Aligner les images au centre verticalement */
-    flex-wrap: wrap; /* Permettre le retour à la ligne si nécessaire */
-    margin: 0 -10px; /* Compenser la marge négative pour éviter le débordement */
+    flex-wrap: wrap; /* Permettre le retour Ã  la ligne si nÃ©cessaire */
+    margin: 0 -10px; /* Compenser la marge nÃ©gative pour Ã©viter le dÃ©bordement */
     margin-top: 100px;
 }
 
 /* Style pour chaque conteneur de photo */
 .photo-container {
     position: relative;
-    flex: 0 0 calc(33.33% - 20px); /* Chaque conteneur prend environ un tiers de la largeur disponible avec une marge de 10px de chaque côté */
+    flex: 0 0 calc(33.33% - 20px); /* Chaque conteneur prend environ un tiers de la largeur disponible avec une marge de 10px de chaque cÃ´tÃ© */
     margin: 10px;
     text-align: center;
 }
@@ -287,9 +286,9 @@ h5 {
 .photo-container img {
     display: block;
     width: 100%;
-    height: auto; /* Ajustez cette propriété selon vos besoins */
+    height: auto; /* Ajustez cette propriÃ©tÃ© selon vos besoins */
     max-height: 250px; /* Hauteur maximale pour les images */
-    object-fit: cover; /* Ajustez cette propriété selon vos besoins */
+    object-fit: cover; /* Ajustez cette propriÃ©tÃ© selon vos besoins */
     transition: transform 0.3s ease-in-out;
     transform-origin: center center;
 }
@@ -324,7 +323,7 @@ h5 {
     text-align: center;
     background-color: #f2f2f2;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.4); /* Couleur de fond avec opacité */
+    background-color: rgba(255, 255, 255, 0.4); /* Couleur de fond avec opacitÃ© */
     
 }
 
@@ -355,7 +354,7 @@ h5 {
     margin: 10px 0;
 }
 
-/* Style pour les icônes de réseaux sociaux */
+/* Style pour les icÃ´nes de rÃ©seaux sociaux */
 .social-icons {
     text-align: center;
 }
@@ -371,7 +370,7 @@ h5 {
 }
 
 .social-icons a {
-    font-size: 60px; /* Taille de l'icône */
+    font-size: 60px; /* Taille de l'icÃ´ne */
     text-decoration: none;
     transition: color 0.3s ease; /* Animation de transition de la couleur */
 }
@@ -379,17 +378,17 @@ h5 {
 .social-icons a:hover {
     color: #007bff; /* Couleur au survol */
 }
-/* Couleur pour l'icône Facebook */
+/* Couleur pour l'icÃ´ne Facebook */
 .social-icons a[href*="facebook"] {
     color: #1877F2; /* Couleur bleue Facebook */
 }
 
-/* Couleur pour l'icône Instagram */
+/* Couleur pour l'icÃ´ne Instagram */
 .social-icons a[href*="instagram"] {
     color: #E4405F; /* Couleur d'Instagram */
 }
 
-/* Change la couleur de l'icône au survol */
+/* Change la couleur de l'icÃ´ne au survol */
 .social-icons a:hover {
     color: #fff; /* Couleur blanche au survol */
 }
@@ -428,7 +427,7 @@ h5 {
 
 
 
-/* Styles pour la section des mentions légales */
+/* Styles pour la section des mentions lÃ©gales */
 footer {
     background-color: #f8f8f8;
     color: #333;
@@ -448,7 +447,8 @@ footer {
 
 
 
-/* Ajoutez des règles de médias query pour rendre le site responsive */
+
+/* Ajoutez des rÃ¨gles de mÃ©dias query pour rendre le site responsive */
 @media only screen and (max-width: 768px) {
     .logo {
         width: 80px;
@@ -457,20 +457,21 @@ footer {
 
     nav {
         flex-direction: column; /* Changez le flux de la barre de navigation en colonne */
-        align-items: center; /* Centrez les éléments dans la colonne */
+        align-items: center; /* Centrez les Ã©lÃ©ments dans la colonne */
     }
 
     nav button {
-        margin-top: 10px; /* Ajoutez une marge entre les boutons lorsqu'ils sont sur deux lignes différentes */
+        margin-top: 10px; /* Ajoutez une marge entre les boutons lorsqu'ils sont sur deux lignes diffÃ©rentes */
     }
-   
+
+
 
     .bloc1 {
         margin-left: 10px;
         margin-right: 10px;
     }
     .arrow-down {
-        display: none; /* Masque l'élément contenant la flèche */
+        display: none; /* Masque l'Ã©lÃ©ment contenant la flÃ¨che */
     }
 
     #formulaire {
@@ -481,17 +482,17 @@ footer {
         flex: 0 0 calc(50% - 10px);
     }
     .photo-gallery {
-        flex-direction: column; /* Affichez les photos en colonne sur des écrans plus petits */
-        align-items: stretch; /* Étirez les photos pour occuper toute la largeur du conteneur */
+        flex-direction: column; /* Affichez les photos en colonne sur des Ã©crans plus petits */
+        align-items: stretch; /* Ã‰tirez les photos pour occuper toute la largeur du conteneur */
     }
 
     .photo-container {
-        flex: 0 0 100%; /* Chaque conteneur de photo occupe 100% de la largeur sur des écrans plus petits */
+        flex: 0 0 100%; /* Chaque conteneur de photo occupe 100% de la largeur sur des Ã©crans plus petits */
         margin: 5px 0; /* Ajoutez un espacement entre les photos */
     }
 
     .photo-container img {
-        max-height: 200px; /* Ajustez la hauteur maximale des images pour maintenir la cohérence */
+        max-height: 200px; /* Ajustez la hauteur maximale des images pour maintenir la cohÃ©rence */
     }
 
 .slick-carousel .slick-slide img {
@@ -510,19 +511,16 @@ footer {
     
 
 .schedule {
-    width: 100%; /* Ajustez la largeur pour occuper la totalité de l'écran */
+    width: 100%; /* Ajustez la largeur pour occuper la totalitÃ© de l'Ã©cran */
 }
 
 .schedule td {
     padding: 10px;
 }
-
 body {
-    background-size: cover;
-    background-image: url("bgr.22.jpg");
-    
-  }
-
+  background-image : url("img/bgr.22.jpg")
+}
+  
 }
 
 

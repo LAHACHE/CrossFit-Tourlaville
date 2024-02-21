@@ -518,87 +518,17 @@ footer {
 }
 
 body {
-    background-size: contain no-repeat;
-    background-image: url("img/alex.jpg");
     
-  }
-
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-
-    .logo {
-        width: 80px;
-        margin-right: 5px;
-    }
-
-    nav {
-        flex-direction: column; /* Changez le flux de la barre de navigation en colonne */
-        align-items: center; /* Centrez les éléments dans la colonne */
-    }
-
-    nav button {
-        margin-top: 10px; /* Ajoutez une marge entre les boutons lorsqu'ils sont sur deux lignes différentes */
-    }
-   
-
-    .bloc1 {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .arrow-down {
-        display: none; /* Masque l'élément contenant la flèche */
-    }
-
-    #formulaire {
-        width: 100%;
-    }
-
-    .photo-container {
-        flex: 0 0 calc(50% - 10px);
-    }
-    .photo-gallery {
-        flex-direction: column; /* Affichez les photos en colonne sur des écrans plus petits */
-        align-items: stretch; /* Étirez les photos pour occuper toute la largeur du conteneur */
-    }
-
-    .photo-container {
-        flex: 0 0 100%; /* Chaque conteneur de photo occupe 100% de la largeur sur des écrans plus petits */
-        margin: 5px 0; /* Ajoutez un espacement entre les photos */
-    }
-
-    .photo-container img {
-        max-height: 200px; /* Ajustez la hauteur maximale des images pour maintenir la cohérence */
-    }
-
-.slick-carousel .slick-slide img {
-    height: 200px; /* Ajustez la hauteur des images du carrousel */
-    text-align: center;
-    }
-    .para1 {
-        margin-left: 10px;
-        margin-right: 10px;
-        padding: 10px;
-    }
-
-    .para1 p {
-        font-size: 14px; /* Ajustez la taille de la police du texte */
+    body {
+        background-size: cover;
+        background-image: url("img/alex.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     
-
-.schedule {
-    width: 100%; /* Ajustez la largeur pour occuper la totalité de l'écran */
-}
-
-.schedule td {
-    padding: 10px;
-}
-
-body {
-    background-size: cover;
-    background-image: url("img/alex.jpg");
     
-  }
-
 }
 
+
+} 

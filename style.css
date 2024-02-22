@@ -492,8 +492,12 @@ footer {
     }
 
     nav button {
-        margin-top: 10px; /* Ajoutez une marge entre les boutons lorsqu'ils sont sur deux lignes différentes */
+        
+        margin: 2px;
+        
     }
+
+
    
 
     .bloc1 {

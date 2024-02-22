@@ -3,6 +3,7 @@
     width: 100px; /* Ajustez la largeur du logo selon vos besoins */
     height: auto; /* Ajustez la hauteur automatiquement en fonction de la largeur */
     margin-right: 10px; /* Ajoute une marge à droite du logo pour l'éloigner du texte */
+    
 }
 
 /* Styles pour la barre de navigation */
@@ -27,6 +28,7 @@ nav button {
     transition: border 0.3s ease-in-out, color 0.3s ease-in-out; /* Transitions fluides */
     font-size:large;
     text-decoration: underline;
+    margin-bottom: 40px;
 }
 
 /* Styles pour les boutons de navigation au survol */
@@ -72,6 +74,7 @@ nav button:hover a::after {
         letter-spacing: 2px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre au texte */
         text-decoration: underline;
+        
     }
 
 
@@ -204,7 +207,7 @@ body {
 
 
 
-    background-image: url("img/alex2.35.jpg");
+    background-image: url("img/alexquali.jpg");
     background-size: cover;
     background-position:center;
     background-attachment: fixed;
@@ -292,8 +295,8 @@ h5 {
     object-fit: cover; /* Ajustez cette propriété selon vos besoins */
     transition: transform 0.3s ease-in-out;
     transform-origin: center center;
+    object-position: center;
 }
-
 
 
 .photo-container:hover .caption {
@@ -446,6 +449,28 @@ footer {
 }
 
 
+/* Styles pour le bandeau de crédit */
+.credit-banner {
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    font-size: 12px;
+    z-index: 999;
+}
+
+/* Ajoutez une transition pour un effet d'apparition/disparition fluide */
+.credit-banner.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
 
 
 /* Ajoutez des règles de médias query pour rendre le site responsive */
@@ -488,10 +513,12 @@ footer {
     .photo-container {
         flex: 0 0 100%; /* Chaque conteneur de photo occupe 100% de la largeur sur des écrans plus petits */
         margin: 5px 0; /* Ajoutez un espacement entre les photos */
+        
     }
 
     .photo-container img {
-        max-height: 200px; /* Ajustez la hauteur maximale des images pour maintenir la cohérence */
+        max-height: 300px; /* Ajustez la hauteur maximale des images pour maintenir la cohérence */
+        object-position: center;
     }
 
 .slick-carousel .slick-slide img {
@@ -516,19 +543,24 @@ footer {
 .schedule td {
     padding: 10px;
 }
-
-body {
+ /* Styles généraux */
+ body {
     
-    body {
-        background-size: cover;
-        background-image: url("img/alex.jpg");
-        background-position: center;
+    
+        background-size: auto 100%; /* ou background-size: auto 100%; */
+        background-image: url("img/fondbleu.jpg");
+        background-position: center center;
         background-repeat: no-repeat;
+        height: 100vh;
         background-attachment: fixed;
-    }
-    
+        margin: 0;
     
 }
+
+.credit-banner {
+    display: block;
+}
+
 
 
 } 

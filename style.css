@@ -399,8 +399,8 @@ h5 {
 
 
 .reservation-banner {
-    background-color: #0066cc;
-    color: #fff;
+    background-color: gray;
+    color: #f2f2f2;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
@@ -408,7 +408,8 @@ h5 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+
 }
 
 .reservation-banner p {
@@ -433,7 +434,7 @@ h5 {
 
 /* Styles pour la section des mentions légales */
 footer {
-    background-color: #f8f8f8;
+    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc transparent */
     color: #333;
     text-align: center;
     padding: 20px;
@@ -442,10 +443,14 @@ footer {
     max-width: 800px;
     margin: 20px auto;
     border-radius: 10px;
+
+    
 }
 
 .mentions-legales p {
     margin: 5px 0;
+   
+    
 }
 
 
@@ -460,6 +465,7 @@ footer {
     padding: 5px;
     font-size: 12px;
     z-index: 999;
+    margin-bottom: 10px;
 }
 
 /* Ajoutez une transition pour un effet d'apparition/disparition fluide */

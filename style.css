@@ -585,5 +585,19 @@ footer {
 }
 
 
+.discover-button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+ 
 
-} 
+
+.discover-button:hover {
+background-color: #0056b3;
+
+}
+}
+
+
+
+

@@ -475,8 +475,21 @@ footer {
     transition: opacity 0.5s ease-in-out;
 }
 
+.discover-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+}
 
-
+.discover-button:hover {
+    background-color: #0056b3;
+}
 
 
 /* Ajoutez des règles de médias query pour rendre le site responsive */

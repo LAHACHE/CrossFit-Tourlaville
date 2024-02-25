@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="videos.css">
+    <title>Découvrez-nous en vidéos</title>
+    <!-- Lien vers Plyr pour la lecture des vidéos -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.3/plyr.css" />
+</head>
+<body>
+
+
+
+
+    <div class="video-container">
+
+
+        <!-- Ajoutez les vidéos ici avec Plyr -->
+        <video controls crossorigin playsinline poster="fondalex.jpg">
+            <source src="prezalex.mp4" type="video/mp4" />
+        </video>
+
+        <video controls crossorigin playsinline poster="fondtienne.jpg">
+            <source src="prezetienne.mp4" type="video/mp4" />
+        </video>
+
+        
+        <video controls crossorigin playsinline poster="fondro.jpg">
+            <source src="prezromain.mp4" type="video/mp4" />
+        </video>
+
+
+
+        <video controls crossorigin playsinline poster="fondmanu.jpg">
+            <source src="prezromanu.mp4" type="video/mp4" />
+        </video>
+
+
+
+
+        <video controls crossorigin playsinline poster="Image 10-02-2024 à 20.58.jpg">
+            <source src="quiz1.mp4" type="video/mp4" />
+        </video>
+
+
+
+
+
+        <video controls crossorigin playsinline poster="Image 10-02-2024 à 20.58.jpg">
+            <source src="quiz2.mp4" type="video/mp4" />
+        </video>
+
+
+
+
+
+        <video controls crossorigin playsinline poster="Image 10-02-2024 à 20.58.jpg">
+            <source src="quiz3.mp4" type="video/mp4" />
+        </video>
+
+
+
+
+
+        <video controls crossorigin playsinline poster="Image 10-02-2024 à 20.58.jpg">
+            <source src="quiz4.mp4" type="video/mp4" />
+        </video>
+
+
+
+
+    </div>
+
+    <!-- Lien vers Plyr JS -->
+    <script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
+    <!-- Script pour initialiser Plyr sur toutes les vidéos -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Sélectionnez toutes les balises vidéo dans la classe .video-container
+            const videos = document.querySelectorAll('.video-container video');
+
+            // Initialisez Plyr sur chaque vidéo
+            videos.forEach(video => {
+                const player = new Plyr(video, {
+                    controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'fullscreen'],
+                });
+            });
+        });
+    </script>
+</body>
+</html>

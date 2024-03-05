@@ -492,8 +492,139 @@ footer {
 }
 
 
-/* Ajoutez des règles de médias query pour rendre le site responsive */
-@media only screen and (max-width: 768px) {
+
+
+.porteouverte {
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 10px #141414;color:#fff;
+     background-color:#2E8ECE;
+     margin-left: 100px;
+     margin-right: 100px;
+ 
+}
+
+
+
+
+.wod1 {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 0 auto;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    font-size: medium;
+    max-width: 30%;
+}
+
+.wod1:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wod2 {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 0 auto;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    font-size: medium;
+    max-width: 30%;
+    margin-top: 0; /* Ajustez ici */
+}
+
+.wod2:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+.wod3{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 0 auto;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    font-size: medium;
+    max-width: 30%;
+}
+
+.wod3:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.wod4 {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 0 auto;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    font-size: medium;
+    max-width: 30%;
+    margin-top: 0; /* Ajustez ici */
+}
+
+.wod4:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px), (max-width: 1024px) {
+    .photo-container {
+        display: none;
+    
+    }
+    .schedule {
+        display: none;
+    }
+    h5{
+        display: none;
+    }
+
+    .porteouverte {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
     .logo {
         width: 80px;
         margin-right: 5px;
@@ -510,8 +641,6 @@ footer {
         
     }
 
-
-   
 
     .bloc1 {
         margin-left: 10px;
@@ -597,7 +726,3 @@ background-color: #0056b3;
 
 }
 }
-
-
-
-

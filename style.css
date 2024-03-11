@@ -110,29 +110,6 @@ nav button:hover a::after {
     background-color: #0066cc;
     }
 
-
-
-    .arrow-down {
-        font-size: 80px;
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
-        transition: opacity 0.5s ease;
-        animation: blink 600ms infinite alternate;
-        margin-top: 100px;
-        color: blue;
-    }
-    
-    .hide-arrow {
-        opacity: 0;
-    }
-    
-    @keyframes blink {
-        to {
-            opacity: 0;
-        }
-    }
     
     
 
@@ -500,9 +477,8 @@ footer {
     -1px 1px 0 #000,
      1px 1px 0 #000,
      1px 1px 10px #141414;color:#fff;
-     background-color:#2E8ECE;
-     margin-left: 100px;
-     margin-right: 100px;
+     
+    
  
 }
 
@@ -726,3 +702,50 @@ background-color: #0056b3;
 
 }
 }
+
+@media (min-width: 1200px) {
+    .logo {
+        width: 120px; /* Ajustez la largeur du logo pour les grands écrans */
+        margin-right: 20px; /* Ajustez la marge du logo pour les grands écrans */
+    }
+
+    nav button {
+        font-size: 18px; /* Ajustez la taille de la police des boutons de navigation pour les grands écrans */
+        padding: 15px 30px; /* Ajustez le rembourrage des boutons de navigation pour les grands écrans */
+    }
+    .bloc1 {
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond avec opacité */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+        margin-top: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 50px;
+        }
+
+    .discover-button {
+        padding: 15px 30px; /* Ajustez le rembourrage du bouton "Découvrir" pour les grands écrans */
+        font-size: 20px; /* Ajustez la taille de la police du bouton "Découvrir" pour les grands écrans */
+    }
+    .photo-container {
+        display: none;
+    
+    }
+  
+
+    .para1{
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond avec opacité */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+        margin-top: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 50px;
+    }
+    }
